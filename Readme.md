@@ -4,18 +4,18 @@
 
 Requires Python 3.3+,  (Python 3.4+ on windows)
 
-To build a local copy of csplib to view locally type:
+To build a local copy of rlplib to view locally type:
 
-    make        # Builds CSPLib to the _deploy directory
+    make        # Builds RLPLib to the _deploy directory
     make serve  # Starts a local web server to view the files
     <open localhost:8000 in your browser>
 
-To add a new problem use `new_problem.sh` to create a basic outline.
+To add a new dataset use `new_dataset.sh` to create a basic outline.
 
 
-# Problem Specification
+# Dataset Specification
 
-Each problem is stored in the `Problems` directory. The best way
+Each dataset landing page is in the `Problem` directory. The best way
 to get a feeling for how a problem is stored is to look at an existing
 problem (Problem/prob001 is a good start).
 
